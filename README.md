@@ -15,11 +15,11 @@
 ### Description
 GameMaster is a Bullet-hell arena multiplayer pixel-art game with a special twist.
 
-There are 3 Players and a Game Master in an arena-like setting. The Players have to survive the enemys the Game Master puts on them until time runs out. The Game Master's goal is to eliminate all players through spawning enemys. The Players have won when the time has expired and still one player is alive.
+There are 3 Players and a Game Master in an arena-like setting. The Players have to survive the enemies the Game Master puts on them until time runs out. The Game Master's goal is to eliminate all players through spawning enemies. The Players have won when the time has expired and still one player is alive.
 
-At the beginning the players have to choose between different prebuild characters with specific attributes like there is a tank with low damage but great health or a melee damage dealer with high mobility and damage but low health.
+At the beginning the players have to choose between different prebuilt characters with specific attributes like there is a tank with low damage but great health or a melee damage dealer with high mobility and damage but low health.
 
-Game start: One random player is choosen to take the role of the Game Master which takes controls of the arena and can spawn enemys, the spawn-rate is limited by the heat-level which increases when the Game Master spawns enemys rapidly.
+Game start: One random player is chosen to take the role of the Game Master which takes control of the arena and can spawn enemies, the spawn-rate is limited by the heat-level which increases when the Game Master spawns enemys rapidly.
 
 The game network system is a client-server model with one player hosting the server and the others joining in.
 
@@ -44,7 +44,7 @@ The game network system is a client-server model with one player hosting the ser
 - All players must be connected to the same network
 - Open project in IntelliJ IDEA
 - Run `DesktopGameDriver.main()`
-- Click through menu till you are prompted to choose "Host-Button" or "Join-Button"
+- Click through menu until you are prompted to choose "Host-Button" or "Join-Button"
 - Choose "Host" if you want to host the server or "Join" if one of the other players has already started the server
 - *Host:* your IP address is displayed > send it to your friends to join > press start to create server and join
 - - InGame: press `ESC` to open in-Game-Options > press "Start-Button" to trigger random Game-Master choice and start timer
